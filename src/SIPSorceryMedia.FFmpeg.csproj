@@ -2,6 +2,9 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
+    <NuspecFile>SIPSorceryMedia.FFmpeg.nuspec</NuspecFile>
+    <RepositoryUrl>https://github.com/LobsterUberlord/SIPSorceryMedia.FFmpeg</RepositoryUrl>
+    <RepositoryBranch>package-0.0.11-pre</RepositoryBranch>
   </PropertyGroup>
 
   <PropertyGroup>
