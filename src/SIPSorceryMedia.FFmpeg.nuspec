@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
-    <id>SIPSorceryMedia.FFmpeg</id>
-    <authors>Aaron Clauson</authors>
+    <id>LobsterUberlord.SIPSorceryMedia.FFmpeg</id>
+    <authors>LobsterUberlord, Aaron Clauson</authors>
     <copyright>Copyright © 2020-2021 Aaron Clauson</copyright>
     <license type="expression">BSD-3-Clause</license>
     <title>SIPSorceryMedia.FFmpeg</title>
@@ -10,16 +10,17 @@
 	<description>Provides FFmpeg based audio and video media end points that can be used with the SIPSorcery real-time communications library.</description>
 	<iconUrl>http://www.sipsorcery.com/mainsite/favicon.ico</iconUrl>
 	<icon>icon.png</icon>
-    <projectUrl>https://github.com/sipsorcery/SIPSorceryMedia.FFmpeg</projectUrl>
-	<repository type="git" url="https://github.com/sipsorcery/SIPSorceryMedia.FFmpeg" branch="master" />
+    <projectUrl>https://github.com/LobsterUberlord/SIPSorceryMedia.FFmpeg</projectUrl>
+	<repository type="git" url="https://github.com/LobsterUberlord/SIPSorceryMedia.FFmpeg" branch="master" />
 	<tags>WebRTC VoIP SIPSorcery Media FFmpeg</tags>
 	<dependencies>
-	    <dependency id="Microsoft.Extensions.Logging.Abstractions" version="5.0.0" />
+	    <dependency id="Microsoft.Extensions.Logging.Abstractions" version="6.0.0" />
 		<dependency id="SIPSorceryMedia.Abstractions" version="1.1.0" />
 		<dependency id="System.Runtime.InteropServices.RuntimeInformation" version="4.3.0" />
-		<dependency id="FFmpeg.AutoGen" version="4.3.0.1" />
+		<dependency id="FFmpeg.AutoGen" version="4.4.1.1" />
     </dependencies>
-	<releaseNotes>-v0.0.11-pre: Chnaged target framework from netcoreapp3.1 to netstandard2.1 for wider platform support.
+	<releaseNotes>
+-v0.0.11-pre: Changed target framework from netcoreapp3.1 to netstandard2.1 for wider platform support.
 -v0.0.10-pre: Updated to use latest abstractons package with change to IAudioEncoder and IVideoEncoder interfaces.
 -v0.0.9-pre: Updated to use latest abstractions nuget package and video format parameter on IVideoSink.GotVideoFrame.
 -v0.0.8-pre: Fixed the video decoder to return BGR instead of RGB.
